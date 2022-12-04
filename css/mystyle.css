@@ -2,3 +2,11 @@
     font-size: 300%;
 
 }
+.icon-test {
+    position: fixed;
+    font-size: 300%;
+    width: 60px;
+    height: 20px;
+    bottom: 60px;
+    right: 60px;
+} 

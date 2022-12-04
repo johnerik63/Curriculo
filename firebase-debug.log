@@ -1,0 +1,44 @@
+[debug] [2022-12-04T19:34:55.670Z] ----------------------------------------------------------------------
+[debug] [2022-12-04T19:34:55.671Z] Command:       C:\Users\eu\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\eu\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init
+[debug] [2022-12-04T19:34:55.672Z] CLI Version:   11.16.1
+[debug] [2022-12-04T19:34:55.672Z] Platform:      win32
+[debug] [2022-12-04T19:34:55.672Z] Node Version:  v16.16.0
+[debug] [2022-12-04T19:34:55.673Z] Time:          Sun Dec 04 2022 16:34:55 GMT-0300 (GMT-03:00)
+[debug] [2022-12-04T19:34:55.673Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-04T19:34:55.741Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-04T19:34:55.741Z] > authorizing via signed-in user (johnerik464@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\eu\Downloads\pasta
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-04T19:35:09.248Z] Using project from CLI flag: curriculo-john-silva1
+[debug] [2022-12-04T19:35:09.251Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/curriculo-john-silva1 [none]
+[debug] [2022-12-04T19:35:09.674Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/curriculo-john-silva1 200
+[debug] [2022-12-04T19:35:09.674Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/curriculo-john-silva1 {"projectId":"curriculo-john-silva1","projectNumber":"176536600605","displayName":"curriculo-john-silva1","name":"projects/curriculo-john-silva1","resources":{"hostingSite":"curriculo-john-silva1"},"state":"ACTIVE","etag":"1_77227cc5-6ead-4f2e-ad2f-27b2f9e23fdc"}
+[info] i  Using project curriculo-john-silva1 (curriculo-john-silva1) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
